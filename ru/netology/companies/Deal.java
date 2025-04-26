@@ -1,9 +1,9 @@
 package ru.netology.companies;
 
 public class Deal {
-    String comment;
-    int debitChange;
-    int creditChange;
+    protected String comment;
+    protected int debitChange;
+    protected int creditChange;
 
     public Deal (String comment, int debitChange, int creditChange) {
         this.comment =  comment;
